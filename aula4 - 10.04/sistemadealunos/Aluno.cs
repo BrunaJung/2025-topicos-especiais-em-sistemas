@@ -15,7 +15,6 @@ namespace SISTEMADEALUNOS{
         public double CalcularMedia(){
             return (Nota1 + Nota2) / 2;
         }
-
         public void ExibirResultado(){
             double media = CalcularMedia();
             Console.Write($"\nAluno: {Nome}");
